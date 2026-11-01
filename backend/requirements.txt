@@ -1,0 +1,12 @@
+# Web framework (includes uvicorn, httpx and python-multipart)
+fastapi[standard]
+# Database ORM and migrations
+sqlalchemy
+alembic
+# Settings from .env
+pydantic-settings
+# Auth: JWT tokens and argon2 password hashing
+pyjwt
+pwdlib[argon2]
+# Tests
+pytest
